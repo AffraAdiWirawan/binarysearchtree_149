@@ -34,6 +34,12 @@ public:
 
 		Node* parent = NULL;
 		Node* currentNode = NULL;
+		Search(element, parent, currentNode); // lokasi node dimana akan menjadi kepala dari node menjadi insert
+
+		if (parent == NULL) {// if the parent is NULL(empty)
+			ROOT = newNode; // membuat newnode = root
+			return; // exit
+		}
 	}
 };
 int main()
