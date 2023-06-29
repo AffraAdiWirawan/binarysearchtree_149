@@ -50,6 +50,10 @@ public:
 			parent->rightchild = newNode; // membuat leftchild of the parents point to the newnode
 		}
 	}
+
+	void Search(string element, Node*& parent, Node*& currentNode) {
+
+	}
 };
 int main()
 {
