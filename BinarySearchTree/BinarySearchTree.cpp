@@ -19,7 +19,8 @@ public:
 };
 
 class BinaryTreaa {
-
+public:
+	Node* ROOT;
 };
 int main()
 {
