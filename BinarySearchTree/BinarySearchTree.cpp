@@ -113,7 +113,7 @@ public:
 int main()
 {
 	BinaryTree obj;
-	while (true);
+	while (true)
 	{
 
 		cout << "\nMenu" << endl;
