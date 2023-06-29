@@ -40,6 +40,15 @@ public:
 			ROOT = newNode; // membuat newnode = root
 			return; // exit
 		}
+
+		if (element < parent->info)// if the value in the data field of the new node is less than that of the parent
+		{
+			parent->leftchild = newNode; // membuat leftchild of the parents point to the newnode
+		}
+		else if (element > parent->info) // if the value in the data field of the new node is greater than that of the parent
+		{
+			parent->rightchild = newNode; // membuat leftchild of the parents point to the newnode
+		}
 	}
 };
 int main()
