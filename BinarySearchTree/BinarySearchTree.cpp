@@ -27,7 +27,13 @@ public:
 	}
 	
 	void insert(string element) {
+		Node* newNode = new Node(element, NULL, NULL); // alokasi memori untuk new node
+		newNode->info = element; // data dengan nama element
+		newNode->leftchild = NULL; // menjadi nilai null
+		newNode->rightchild = NULL;
 
+		Node* parent = NULL;
+		Node* currentNode = NULL;
 	}
 };
 int main()
