@@ -18,9 +18,13 @@ public:
 	}
 };
 
-class BinaryTreaa {
+class BinaryTree {
 public:
 	Node* ROOT;
+
+	BinaryTree() {
+		ROOT = NULL; // metode root menjadi null
+	}
 };
 int main()
 {
