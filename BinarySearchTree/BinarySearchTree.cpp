@@ -25,6 +25,10 @@ public:
 	BinaryTree() {
 		ROOT = NULL; // metode root menjadi null
 	}
+	
+	void insert(string element) {
+
+	}
 };
 int main()
 {
